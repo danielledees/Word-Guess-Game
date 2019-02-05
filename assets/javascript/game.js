@@ -39,7 +39,7 @@ document.onkeyup = function(event) {
 
 // Determines which key was pressed.
 var userGuess = event.key;
-console.log(userGuess);
+
     
 //if the user presses a key that is in the word and has not already been guessed
 if( word.includes(userGuess) && !letterGuessed.includes(userGuess)){
@@ -66,6 +66,6 @@ document.getElementById('placeholder').innerHTML = spaces.join(' ');
     
 
   // Set the inner HTML contents of the #game div to our html string
-  document.querySelector("#placeholder").innerHTML = html;}
+  //document.querySelector("#placeholder").innerHTML = html;}
 
 
